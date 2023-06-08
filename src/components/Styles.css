@@ -1,0 +1,352 @@
+.homeholder {
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    width: 100%;
+    color: white;
+    margin: auto;
+}
+.leftdivhold {
+    width: 50%;
+}
+
+.left_div {
+    /* background-color: red; */
+    width: 50%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.name {
+    margin-top: 100px;
+    color: rgb(210, 220, 220);
+    font-size: 3.5rem;
+    letter-spacing: -0.025em;
+    font-weight: 700;
+}
+
+.second_line {
+    color: rgb(180, 201, 201);
+}
+.third_line {
+    color: rgb(151, 168, 168);
+    text-align: justify;
+}
+.line {
+    height: 2px;
+    width: 50px;
+    background-color: rgb(97, 98, 98);
+    transition: all 0.3s ease-in;
+}
+.lineabout {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    /* background-color: red; */
+    width: 180px;
+    margin-top: 15px;
+}
+.about {
+    color: rgb(97, 98, 98);
+    transition: all 0.3s ease-in;
+}
+.fourthold {
+    margin-top: 50px;
+}
+.lineabout:hover .line {
+    width: 250px;
+    cursor: pointer;
+    color: white;
+    width: 80px;
+    background-color: white;
+}
+
+.lineabout:hover .link{
+    color:white;
+}
+.lineabout:hover .abt{
+    color:white;
+}
+.lineabout:hover .project{
+    color:white;
+}
+.socialmedia {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-top: 130px;
+   
+}
+.socials {
+    font-size: 25px;
+    /* reacticon ko size badhako yo */
+}
+
+.right_div {
+   
+   position: relative;
+    width: 50%;
+    height: 100vh;
+    /* background-color: #fff; */
+    overflow-y: scroll;
+    /* background-color: green; */
+}
+.topmost {
+    height: 100vh;
+    width: 70%;
+    margin: auto;
+    margin-top: 180px;
+    /* background-color: red; */
+    text-align: justify;
+    color: rgb(224, 237, 232);
+}
+.topmost p {
+    color: rgb(175, 206, 197);
+}
+#lastp {
+    color: rgb(123, 140, 133);
+    /* background-color: red; */
+}
+.middle {
+    /* background-color: green; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 70%;
+    height: 80vh;
+}
+.first {
+    width: 73%;
+    height: 5px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+.one {
+    width: 90%;
+    background-color: palegoldenrod;
+    height: 5px;
+}
+.two {
+    width: 85%;
+    background-color: palegreen;
+    height: 5px;
+}
+.three {
+    width: 70%;
+    background-color: paleturquoise;
+    height: 5px;
+}
+.four {
+    width: 70%;
+    background-color: palevioletred;
+    height: 5px;
+}
+.five {
+    width: 65%;
+    background-color: peru;
+    height: 5px;
+}
+.six {
+    width: 80%;
+    background-color: purple;
+    height: 5px;
+}
+
+.firstclass {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:15px;
+}
+.link, .project, .abt{
+    text-decoration: none;
+    color: rgb(97, 98, 98);
+}
+.socialmedia a{
+    color:white;
+    transition: 0.2 ease-in;
+}
+.socials:hover{
+   color:aquamarine;
+   /* transform: scale(1.01); */
+}
+
+.icon-scroll,.icon-scroll::before{
+  position: absolute;
+  left: 50%;
+  bottom:0;
+  top:90vh;
+  /* background-color:red; */
+  
+}
+
+.icon-scroll{
+  width: 30px;
+  height: 55px;
+  margin-left: -20px;
+  /* top: 50%; */
+  margin-top: -35px;
+  box-shadow: inset 0 0 0 1px #fff;
+  border-radius: 25px;
+}
+.icon-scroll::before{
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  margin-left: -4px;
+  top: 8px;
+  border-radius: 4px;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+}
+
+@keyframes scroll{
+  0%{
+
+    opacity: 1;
+  
+}
+  100%{
+    opacity: 0;
+    transform: translateY(46px)}
+}
+#projectdiv{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between ; */
+    gap:80px;
+}
+.projecthold{
+    /* background-color: red; */
+    
+}
+
+.projectimg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius:10px;
+    transition: 0.2s ease-in;
+   
+}
+.projectimg:hover{
+transform: scale(1.025);
+}
+.imgholder{
+    height: 200px;
+    width: 350px;
+    
+}
+.image_desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3px;
+    width: 350px;
+    margin:auto;
+    
+}
+
+.href{
+    text-decoration: none;
+}
+.names{
+    color:rgb(207, 222, 218);
+    font-size: 18px;
+    /* background-color: gainsboro; */
+    border-radius: 15px;
+    width: 300px;
+}
+.description{
+    color: rgb(134, 149, 149);
+    
+}
+@media  screen and (max-width:600px){
+    .homeholder{
+     display: flex;
+        flex-direction: column;
+       
+        width: 100%;
+
+    }
+    .name{
+        font-size: 2.7rem;
+        margin-top: 50px;
+    }
+    .second_line{
+        font-size: .8rem;
+    }
+    .third_line{
+        font-size: .75rem;
+    }
+    .leftdivhold{
+        width: 95%;
+        
+        /* background-color: red; */
+    }
+    .left_div{
+        width: 86%;
+    }
+    .right_div{
+        width: 86%;
+        overflow-y:visible;
+    }
+    .firstclass>div{
+        font-size: .75rem;
+    }
+    .socialmedia{
+        margin:auto;
+    }
+    .first{
+        width:65% ;
+    }
+    .lineabout{
+        margin: auto;
+        /* color: white; */
+    }
+    .link, .project, .abt{
+        color:rgb(150, 172, 193);
+    }
+    .topmost{
+        width: 100vw;
+        margin-top: 0;
+        height: 80vh;
+    }
+    #lastp{
+        color:rgb(186, 205, 198);
+    }
+    .tops{
+        margin: auto;
+        width: 86%;
+    }
+    .icon-scroll{
+        margin:auto;
+        top:20rem;
+    }
+
+    #projectdiv{
+        /* background-color: white; */
+        margin:auto;
+        width: 100vw;
+        padding-bottom: 10px;
+    }
+   
+    
+    #skilldiv{
+        width: 100vw;
+    }
+    .firstclass{
+        margin: 0 auto;
+       width: 86%;
+       
+    }
+}
+    
+
