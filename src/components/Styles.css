@@ -55,6 +55,7 @@
 .fourthold {
     margin-top: 50px;
 }
+
 .lineabout:hover .line {
     width: 250px;
     cursor: pointer;
@@ -72,6 +73,17 @@
 .lineabout:hover .project{
     color:white;
 }
+
+.lineactive{
+    width: 250px;
+    cursor: pointer;
+    color: white;
+    width: 80px;
+    background-color: white;
+}
+
+
+
 .socialmedia {
     display: flex;
     justify-content: flex-start;
@@ -165,6 +177,9 @@
 .link, .project, .abt{
     text-decoration: none;
     color: rgb(97, 98, 98);
+}
+.aactive{
+    color:white;
 }
 .socialmedia a{
     color:white;
@@ -267,6 +282,12 @@ transform: scale(1.025);
 .description{
     color: rgb(134, 149, 149);
     
+}
+
+.active{
+    color: white;
+    width: 80px;
+    background-color: white;
 }
 @media  screen and (max-width:600px){
     .homeholder{
