@@ -2,8 +2,8 @@ import React from "react";
 
 const About = () => {
     return (
-        <div className="topmost">
-            <div className="tops">
+        <div className="topmost" id="aboutpage">
+            <div className="tops" >
                 I am a learner who possesses a strong enthusiasm and eagerness
                 to learn. I have embarked on a journey to master the skills and
                 concepts required to excel in the field of frontend development.

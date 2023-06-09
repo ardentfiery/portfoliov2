@@ -31,7 +31,7 @@ const Home = () => {
                             <div className="lineabout">
                                 <div className="line"></div>
                                 <div className="about">
-                                    <a className="abt" href="aboutpage">
+                                    <a className="abt" href="#aboutpage">
                                         ABOUT
                                     </a>
                                 </div>
@@ -74,7 +74,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className="right_div">
+                <div className="right_div" >
                     <About/>
                     <Skills/>
                     <Project/>
