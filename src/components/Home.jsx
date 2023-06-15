@@ -63,10 +63,10 @@ const Home = () => {
                                <a target="_blank" href="https://www.facebook.com/sabina.thapakshettry"><FaFacebookF className="socials"  /></a> 
                             </div>
                             <div>
-                               <a target="_blank" href="https://github.com/SABINAKSHETTRY"><BsGithub className="socials" /></a> 
+                               <a target="_blank" href="https://github.com/ardentfiery"><BsGithub className="socials" /></a> 
                             </div>
                             <div>
-                               <a target="_blank" href="https://github.com/ardentfiery"><BsTwitter className="socials" /></a> 
+                               <a target="_blank" href="https://twitter.com/Sabinakshe"><BsTwitter className="socials" /></a> 
                             </div>
                             <div>
                                <a target="_blank" href="https://www.linkedin.com/in/sabina-thapa-a52707241/"><AiOutlineLinkedin className="socials" /></a> 
